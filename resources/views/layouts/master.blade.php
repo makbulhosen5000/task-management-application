@@ -12,9 +12,13 @@
 
 
       @include('partials.nav')
-
+      
+      <div class="my-5">
+     {{-- Dynamic enject content --}}
         @yield('content')
-
+  
+      </div>
+    
 
      {{-- script --}}
      @include('partials.script')
